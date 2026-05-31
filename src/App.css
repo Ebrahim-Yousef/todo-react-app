@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.iconButton {
+  transition: all 0.2s !important;
+}
+.iconButton:hover {
+  background-color: #cdcdcd !important;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+}
+
+.todoCard {
+  transition: all 0.2s !important;
+}
+.todoCard:hover {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* transform: translateY(-5px); */
+}
+
+/* == Custom Fonts == */
+
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Black.ttf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Light.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Bold.ttf");
+  font-weight: bold;
+}
+
+/* ==// Custom Fonts //== */
